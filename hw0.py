@@ -20,4 +20,3 @@ print("Hello!")
 
 # Bullet point 3
 # TODO 3: Create a string variable named sb and assign it the value "spongebob"
-sb = "Spongebob"
