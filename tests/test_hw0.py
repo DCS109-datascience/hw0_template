@@ -84,13 +84,3 @@ def test_spongebob_common_misspellings():
     
     for mistake in common_mistakes:
         assert hw0.sb != mistake, f"Close! But '{mistake}' is not quite right. Try 'spongebob'"
-
-# This test will always pass - it's just to show what the correct value looks like
-def test_show_correct_answer():
-    """This test shows you what the correct answer should look like."""
-    correct_answer = "spongebob"
-    print(f"\n✅ The correct value for 'sb' is: '{correct_answer}'")
-    print(f"📝 Your current value is: '{hw0.sb}'")
-    print(f"🔍 Match? {hw0.sb == correct_answer}")
-    
-    assert True, "This test always passes - it just shows you the correct format!"
